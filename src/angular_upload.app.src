@@ -1,0 +1,12 @@
+{application, angular_upload,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { angular_upload_app, []}},
+  {env, []}
+ ]}.
